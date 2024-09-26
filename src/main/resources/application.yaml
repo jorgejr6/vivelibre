@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: demo
+  docker:
+    compose:
+      enabled: false
+
+server:
+  port: 8081
+
+properties:
+  url: http://localhost:8080/token
+  username: auth-vivelibre
+  password: password
